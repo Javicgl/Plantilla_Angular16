@@ -25,7 +25,7 @@ const routes: Routes = [
   // },
   {
     path: '**', // Wildcard: para cualquier otra ruta
-    redirectTo: '/users', // Redirige de nuevo a la ruta por defecto
+    redirectTo: '/users', // Redirige de nuevo a la ruta por defectoo
   },
 ];
 

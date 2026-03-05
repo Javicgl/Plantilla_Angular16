@@ -25,12 +25,12 @@ const routes: Routes = [
   // },
   {
     path: '**', // Wildcard: para cualquier otra ruta
-    redirectTo: '/users', // Redirige de nuevo a la ruta por defectoo
+    redirectTo: '/users', // Redirige de nuevo a la ruta por defecto
   },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)], // Configuración de rutas
-  exports: [RouterModule], // Exporta el RouterModule parla que sea accesible en AppModule
+  exports: [RouterModule], // Exporta el RouterModule para que sea accesible en AppModule
 })
 export class AppRoutingModule { }
